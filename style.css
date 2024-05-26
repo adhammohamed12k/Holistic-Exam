@@ -1,0 +1,90 @@
+*
+{
+    text-decoration: none; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a
+{
+    color: black;
+}
+a:hover{
+    color: orange;
+    transition: 0.4;
+    scale: 1;
+}
+#chlickk 
+{
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+}
+#chlickk:hover
+{
+    color: orange;
+}
+img
+{
+    border:  2px solid black;   
+    padding: 10px;
+}
+img:hover
+{
+    cursor: pointer;
+}
+section:target
+{
+    display: block;
+}
+section:not(:target)
+{
+    display: none;
+}
+body
+{
+    width: 100%;
+    height: 200vh;
+    background:linear-gradient(to left,rgba(238, 255, 2, 0.53) , rgba(0, 255, 157, 0.678));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    justify-content:center;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.anotherContaiar
+{
+    justify-content:space-around;
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+
+}
+.containar1
+{
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.nextAndpriv .next{
+
+    position: relative;
+    left: 550px;
+    top: -180px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+}
+.nextAndpriv .priv
+{
+    position: relative;
+    left: -290px;
+    top: -180px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+}
